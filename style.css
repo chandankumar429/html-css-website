@@ -1,0 +1,138 @@
+.navg{
+    justify-content: end;
+}
+
+.navh{
+    margin-left: 20em;
+    font-size: 18px;
+    font-weight: bolder;
+}
+#scroll-animate
+{
+  overflow: hidden;
+}
+
+#scroll-animate-main
+{
+  width: 100%;
+  left: 0;
+  position: fixed;
+}
+
+#heightPage,
+#heightScroll
+{
+  width: 10px;
+  top: 0;
+  position: absolute;
+  z-index: 99;
+}
+
+#heightPage
+{
+  left: 0;
+}
+
+#heightScroll
+{
+  right: 0;
+}
+
+header
+{
+  width: 100%;
+  height: 100%;
+  background: url(https://raw.githubusercontent.com/hudsonmarinho/header-and-footer-parallax-effect/master/assets/images/bg-header.jpg) no-repeat 50% 50%;
+  top: 0;
+  position: fixed;
+  z-index: -1;
+}
+
+footer
+{
+  width: 100%;
+  height: 300px;
+  background: gray;
+  bottom: -300px;
+  position: fixed;
+  z-index: -1;
+}
+
+.content
+{
+  height: 1000px;
+  min-height: 1000px;
+  background: #ededed;
+  position: relative;
+  z-index: 1;
+}
+
+.wrapper-parallax {
+  margin-top: 100%;
+  margin-bottom: 300px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+h1{
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 150px;
+  color: #fff;
+}
+
+.firstdiv{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secdiv{
+    text-align: center;
+    margin-top: 30px;   
+    text-transform: uppercase;
+}
+.fih{
+    padding-left: 10px;
+}
+.jikl{
+    padding-top: 70px;
+}
+.jikl h2{
+    font-size: 45px;
+    font-weight: bolder;
+    text-align: center;
+}
+.jikl h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    padding-top:21px;
+    text-align: center;
+}
+.yelp{
+    margin-top: 15px;
+
+}
+.trially{
+    align-items: end;
+    margin-top: 15px;
+    margin-left: 336px;
+}
+.linkedr{
+    padding-top: 20px;
+}
+.utilityi{
+}
+.filek{
+    padding-top: 22px;
+    padding-left: 115px;
+    color:black;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.tyl{
+    padding-top: 49px;
+    
+}
